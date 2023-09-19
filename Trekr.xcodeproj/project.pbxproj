@@ -11,6 +11,9 @@
 		04C4B9ED2AB99BFA00AE0CE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4B9EC2AB99BFA00AE0CE3 /* ContentView.swift */; };
 		04C4B9EF2AB99BFB00AE0CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B9EE2AB99BFB00AE0CE3 /* Assets.xcassets */; };
 		04C4B9F22AB99BFB00AE0CE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B9F12AB99BFB00AE0CE3 /* Preview Assets.xcassets */; };
+		04C4B9FA2AB99EAD00AE0CE3 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B9F82AB99EAD00AE0CE3 /* locations.json */; };
+		04C4B9FB2AB99EAD00AE0CE3 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B9F92AB99EAD00AE0CE3 /* tips.json */; };
+		04C4B9FD2AB9AC0000AE0CE3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B9FC2AB9AC0000AE0CE3 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		04C4B9EC2AB99BFA00AE0CE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04C4B9EE2AB99BFB00AE0CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C4B9F12AB99BFB00AE0CE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04C4B9F82AB99EAD00AE0CE3 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		04C4B9F92AB99EAD00AE0CE3 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		04C4B9FC2AB9AC0000AE0CE3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 				04C4B9EA2AB99BFA00AE0CE3 /* TrekrApp.swift */,
 				04C4B9EC2AB99BFA00AE0CE3 /* ContentView.swift */,
 				04C4B9EE2AB99BFB00AE0CE3 /* Assets.xcassets */,
+				04C4B9F82AB99EAD00AE0CE3 /* locations.json */,
+				04C4B9F92AB99EAD00AE0CE3 /* tips.json */,
+				04C4B9FC2AB9AC0000AE0CE3 /* .gitignore */,
 				04C4B9F02AB99BFB00AE0CE3 /* Preview Content */,
 			);
 			path = Trekr;
@@ -125,7 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C4B9FD2AB9AC0000AE0CE3 /* .gitignore in Resources */,
 				04C4B9F22AB99BFB00AE0CE3 /* Preview Assets.xcassets in Resources */,
+				04C4B9FB2AB99EAD00AE0CE3 /* tips.json in Resources */,
+				04C4B9FA2AB99EAD00AE0CE3 /* locations.json in Resources */,
 				04C4B9EF2AB99BFB00AE0CE3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
